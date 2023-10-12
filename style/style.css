@@ -102,12 +102,31 @@ footer section.navigation {
 footer section div {
   height: 60px;
   /* width: 200px; */
-  background-color: deepskyblue;
+  /* background-color: deepskyblue; */
+  padding: 0 .4rem;
+}
+
+footer p {
+  font-size: .65rem;
+  padding-top: 3px;
 }
 
 /* div.mic-mute {
   text-align: center;
 } */
+
+footer .icons {
+  font-size: 1.5rem;
+  }
+
+.arrow-up {
+  line-height: 60px;
+  font-size: .7rem;
+}
+
+.green {
+  color: #4bc800;
+}
 
 div.end-meeting {
   background-color: #4a4a4a;
@@ -116,6 +135,8 @@ div.end-meeting {
   text-align: center;
 }
 
-.border-test {
+
+
+/* .border-test {
   border: 2px dashed blueviolet;
-}
+} */
