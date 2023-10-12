@@ -4,3 +4,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Flex */
+.flex-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header {
+  height: 50px;
+  background-color: plum;
+}
+
+main {
+  height: calc(100vh - 120px);
+  background-color: lightseagreen;
+}
+
+main section.container {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: orange;
+  overflow-y: auto;
+}
+
+main img {
+  width: 200px;
+  height: 120px;
+  margin: .1rem;
+}
+
+/* Footer */
+footer {
+  height: 70px;
+  background-color: rgb(40, 169, 31);
+}
