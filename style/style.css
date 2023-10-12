@@ -19,6 +19,20 @@ body {
   flex-wrap: wrap;
 }
 
+.flex-centered {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 header {
   height: 40px;
   background-color: black;
@@ -77,4 +91,31 @@ span.name {
 footer {
   height: 60px;
   background-color: #222222;
+}
+
+footer section.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer section div {
+  height: 60px;
+  /* width: 200px; */
+  background-color: deepskyblue;
+}
+
+/* div.mic-mute {
+  text-align: center;
+} */
+
+div.end-meeting {
+  background-color: #4a4a4a;
+  color: red;
+  line-height: 60px;
+  text-align: center;
+}
+
+.border-test {
+  border: 2px dashed blueviolet;
 }
