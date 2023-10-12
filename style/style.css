@@ -24,9 +24,26 @@ header {
   background-color: black;
 }
 
+div.header-container {
+  text-align: right;
+  line-height: 30px;
+  /* padding: 0 5px; */
+}
+
+button.speaker-view,
+button.maximize {
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #4a4a4a;
+  color: white;
+  font-size: .7rem;
+  margin-right: 5px;
+}
+
 main {
-  height: calc(100vh - 110px);
+  height: calc(100vh - 100px);
   background-color: black;
+  padding-bottom: 10px;
 }
 
 main section.container {
@@ -38,14 +55,13 @@ main section.container {
 }
 
 div.photo-container {
-  margin: 1px;
+  margin: 2px;
   position: relative;
 }
 
 main img {
   width: 200px;
   height: 120px;
-  
 }
 
 span.name {
@@ -59,6 +75,6 @@ span.name {
 
 /* Footer */
 footer {
-  height: 70px;
+  height: 60px;
   background-color: #222222;
 }
